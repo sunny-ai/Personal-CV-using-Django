@@ -1,0 +1,121 @@
+
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Abu Sayed Sunny</title>
+	<link href="{% static '/css/main.css'  %}" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	
+</head>
+<style>body{
+	background-color:#F8F8F8!important;
+}
+
+#profile-wrapper{
+	text-align: center;
+}
+
+#profile-pic{
+	width:150px;
+	height: 150px;
+	border-radius: 50%;
+	margin-left: auto;
+  	margin-right: auto;
+}
+
+ul{
+	padding: 0;
+    list-style-type: none;
+}
+
+
+.social-links ul, li{
+	list-style-type:none;
+	display: inline-block;
+}
+
+.social{
+	width:20px;
+	height: 20px;
+}</style>
+<body>
+	<br>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3">
+				<div class="card card-body h-100  border-info" id="profile-wrapper">
+					<img id="profile-pic" src="{% static 'images/sunny.jpg' %}" >
+					<hr>
+					<h4>Hello I'm Sunny!</h4>
+					<p>I love exploring, doing research and collaborating</p>
+
+					<ul class="social-links">
+ 						<li><a href="https://www.facebook.com/imsunny3229" target="_blank"><img class="social" src="{% static 'images/facebook.png' %}"></a></li>
+  						<li><a href="https://www.linkedin.com/in/abu-sayed-sunny/" target="_blank"><img class="social" src="{% static 'images/linkedin.png' %}"></a></li>
+  						<li><a href="https://github.com/sunny-ai" target="_blank"><img class="social" src="{% static 'images/github.png' %}"></a></li>
+					</ul>
+
+				</div>
+			</div>
+
+			<div class="col-md-9">
+				<div class="card card-body h-100  border-info">
+					<h4>Robotics Engineer at Essential-Infotech</h4>
+					<hr>
+					
+					<p align="justify">As a Robotics Engineer with 2 years of experience, I am passionate about designing, developing, and implementing cutting-edge robotics solutions that can enhance efficiency, accuracy, and safety in various industries. Throughout my career, I have worked on projects ranging from developing autonomous vehicles and drones to designing custom robotic systems for industrial automation. My expertise in robotics design, programming, simulation, control systems, machine learning, etc. allows me to approach each project with a comprehensive understanding of the technical and practical requirements. I thrive in collaborative, fast-paced environments where innovation and problem-solving are key. I am committed to staying up-to-date with the latest trends and technologies in the field of robotics, and enjoy sharing my knowledge and expertise with others.</p>
+					<button class="download-btn" onclick="downloadFile()">Download CV</button>
+					<a href="https://drive.google.com/file/d/1k8ITgYReWctITeEjOukE6SqlQwqVmec2/view?usp=sharing" target="_blank", style="display:inline-block;padding:10px 20px;background-color:#000;color:#fff;text-decoration:none;border-radius:5px;position:relative;text-align:center;"><i class="fa fa-download" style="position:absolute;top:50%;left:0;transform:translateY(-50%);margin-right:5px;"></i><span style="display:inline-block;vertical-align:middle;">Download CV</span></a>
+
+				
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>My Experience</h5>
+					<hr>
+					<p align="justify">As the Manager of the Robotics Wing at IUBAT IT Society, my responsibilities included maintaining the club's activities, managing all assets, serving as the trainer for the robotics club, and making decisions related to robotics. In my role as Assistant Campus Director of the Hult Prize at IUBAT, I was responsible for maintaining the club's activities and managing all assets. Additionally, as a volunteer for the Bangladesh Robot Olympiad, I was responsible for maintaining all digital graphics design and assisting in managing all competitors in the main competition. Overall, my roles demonstrate my strong leadership skills, ability to manage assets effectively, and passion for technology and robotics.</p>
+					</div>
+			</div>
+
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>What I Know</h5>
+					<hr>
+					<p>In terms of my technical skills, I am an expert in development board (Arduino, RPi, Jetson, etc.) and IoT Module, and have intermediate knowledge in Python, C, and C++. I am a beginner in ROS (Robot Operating System). As for my language skills, I am a native speaker of Bangla and am fluent in English. My technical skills demonstrate my expertise in hardware and software systems, while my language skills demonstrate my ability to communicate effectively in both my native language and English.</p>
+					<p>PS: Working on Artificial Intelligence, NLP and Machine Learning.</p>
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>How I Learn</h5>
+					<hr>
+					<p>Reverse Engineer & Build Ugly Prototypes First.</p>
+
+					<p align="justify">I am a hands-on learner who believes in the importance of practical experience. My passion for technology has driven me to seek out opportunities to work on robotics projects and other technical endeavors. Through these experiences, I have developed a deep understanding of how hardware and software systems work together. My approach to learning emphasizes experimentation and practice, which has allowed me to become an expert in development board (Arduino, RPi, Jetson, etc.) and IoT Module. While I am still a beginner in Robot Operating System (ROS), I am eager to continue learning through hands-on experimentation.</p>
+				</div>
+			</div>
+
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>My Short Term Goals</h5>
+				<hr>
+				<p align="justify">As a robotics engineer, my ultimate goal is to contribute to the development of innovative robotics solutions that have a positive impact on society. I aim to work on projects that address real-world problems and have the potential to improve people's lives. Additionally, as someone who aspires to become a Bangladesh Army intelligence, I hope to apply my technical skills and knowledge to develop cutting-edge robotics solutions that can support the military's mission. I believe that robotics has the potential to revolutionize many aspects of military operations, including reconnaissance, surveillance, and logistics. Therefore, my future goal is to become a leading robotics engineer who can help the Bangladesh Army harness the power of technology to enhance its capabilities and protect the country.</p>
+			
+				</div>
+			</div>
+		</div>
+		<br>
+	</div>
+
+
+</body>
+</html>
