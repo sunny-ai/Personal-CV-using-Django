@@ -1,0 +1,2 @@
+# Personal CV using Django
+ 
